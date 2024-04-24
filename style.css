@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("assets/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #242424;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: #8cb43d;
+}
+
+.c-1 {
+  margin-left: 200px;
+  background-color: #242424;
+  height: 10vh;
+  width: 13%;
+}
+
+p {
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.c-2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0;
+  display: flex;
+  left: 600px;
+}
+
+.c-2 > img {
+  padding-top: 10px;
+  height: 6vh;
+}
+
+.c-3 {
+  background-color: #242424;
+  position: absolute;
+  top: 0;
+  right: 150px;
+  margin-left: 200px;
+  height: 10vh;
+  width: 17%;
+}
+.c-4 {
+  background-color: #242424;
+}
+.c-4 ul {
+  height: 7vh;
+  list-style: none;
+  display: flex;
+  margin: auto;
+  margin-left: 500px;
+  align-items: center;
+}
+
+.c-4 ul li {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.c-4 ul li a:hover {
+  color: #8cb43d;
+}
+
+.c-4 > ul li a {
+  font-family: sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.forMenu {
+  padding-left: 100px;
+}
+
+.searchBtn {
+  margin-left: 50px;
+}
+
+main {
+  width: 100%;
+  height: 10vh;
+}
+
+.mainText {
+  position: absolute;
+  left: 650px;
+  top: 300px;
+  font-size: 3em;
+}
+
+.mainText > pre {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 750;
+}
+
+#yourCity {
+  background-color: white;
+  color: #8cb43d;
+  width: 50%;
+  margin: auto;
+  font-weight: 1000;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.leftRightBtn {
+  margin-top: 350px;
+  margin-left: 10px;
+  width: 3%;
+  height: 3vh;
+  background-color: orange;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.leftRightBtn2 {
+  position: absolute;
+  right: 0;
+  top: 450px;
+  margin-right: 10px;
+  width: 3%;
+  height: 3vh;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.textboxAndCombobox {
+  margin-top: 20px;
+}
+
+.textBox {
+  background-color: white;
+  height: 6vh;
+  width: 40%;
+  margin: auto;
+  margin-left: 770px;
+}
+
+#searchIcon {
+  padding-left: 600px;
+}
+
+#searchText {
+  padding-top: 10px;
+  width: 20%;
+  font-size: 1.5em;
+}
+
+.comboBox {
+  height: 6vh;
+  margin-left: 500px;
+  position: absolute;
+  bottom: 230px;
+  background-color: white;
+  width: 12%;
+}
+
+.comboBox > p {
+  color: #242424;
+}
+
+.orderNowButton {
+  background-color: #8cb43d;
+  width: 15%;
+  border-radius: 5px;
+  height: 7vh;
+  margin-left: 800px;
+  margin-top: 15px;
+}
+
+.orderNowButton > p {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+.secondMain p {
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.secondCard {
+  border: 1px solid white;
+  width: 9%;
+  height: 15vh;
+  margin-left: 115px;
+  display: inline-flex;
+
+  text-align: center;
+}
+
+.secondCard > p {
+  font-weight: 0.1em;
+  margin-top: 120px;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  margin-right: 120px;
+}
+
+#firstSeeMoreBtn {
+  background-color: orange;
+}
+
+.seeMoreBtn {
+  display: flex;
+  background-color: #8cb43d;
+  width: 90%;
+  margin-top: 300px;
+  height: 5vh;
+}
+
+.seeMoreBtn > p {
+  margin: auto;
+  font-size: 1em;
+}
+
+.thirdMain {
+  width: 100%;
+  margin-top: 350px;
+  height: 60vh;
+
+
+
+}
+
+.thirdMain >article
+{
+  font-size: 3em;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 304px;
+}
+
+.thirdMainCard
+{
+  margin-left: 304px;
+  margin-bottom: 20px;
+}
+
+
+.lastt
+{
+  display: inline-block;
+}
+
+.lastt > article
+{
+  color: white;
+  font-family: sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 130px;
+  margin-left: 20px;
+  margin-top: -90px;
+}
+
+
+.lastt > pre
+{
+  color: white;
+  font-family: sans-serif;
+  margin-left: -40px;
+  margin-top: -80px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color:#8cb43d  ;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+
+}
+
